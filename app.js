@@ -97,6 +97,7 @@ fetch('https://raw.githubusercontent.com/tonioliii/classes/main/data.json')
     const input = document.getElementById('dynamic-input');
     input.addEventListener("click", function () {
         hide_all_links()
+        searchBTN.style.display = "block"
     })
 
     input.addEventListener('blur', function() {
@@ -111,6 +112,7 @@ fetch('https://raw.githubusercontent.com/tonioliii/classes/main/data.json')
             alert("caca")
         } else {
             const link = document.getElementById(dict_name_to_id[input.value])
+            searchBTN.style.display = "none"
             hide_all_links()
             link.style.display = "block"
         }
@@ -119,8 +121,6 @@ fetch('https://raw.githubusercontent.com/tonioliii/classes/main/data.json')
     const url = new URL(window.location.href);
     const params = new URLSearchParams(url.search);
     const id = params.get('id');
-
-    console.log(id)
 
     if (id != null) {
         let info = list_id_to_info[id]
