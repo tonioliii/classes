@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Toutes les classes 2024-2025 à TDA">
-    <meta name="theme-color" content="#2742dd">
-    <title>Classes 2024&Diamond;2025</title>
-    <link rel="icon" type="image/png" href="classes.png">
-</head>
-<body>
-<h1>Classes 2024&Diamond;2025</h1>
-<div class="niveau">
-<div class="classe"><h2>TA</h2><p>BELFODIL Camila<br>BENBEKHTI Anna<br>BILLIARD Leo<br>BOUAB Maia<br>BOUDAILLIEZ Theophile<br>BOUDEFFA Imene<br>COLIN Nina<br>DAHEL Anys<br>DANG MERLE Lisa<br>DAUDRE Lou-Eve<br>DELEMAZURE Henri<br>DERUYCK Sacha<br>DESCAMPS-DIAZ Giulian<br>DUCHATELET Gaspard<br>FONTANA Sofia<br>HETZEL Eva<br>HIGNARD Antoine<br>JOANCHICOY DIT ARNAUDE Sacha<br>KARRAT Azzedine<br>KUCUK Jiyan<br>LEBURGUE-GORNECKI Thomas<br>MERLIN Amaury<br>MINAKU KUNDJI Noah<br>RIGOLLE Apolline<br>TERKMANI Alexandre<br>THREHOUT Sophia<br>TRISTRAM Maud<br>TROUBLE Jules<br>VINCENT Emie<br>VINCENT-GERARD Sacha<br>ZHANG Leon</p></div>
+txt = """<h2>TA</h2><p>BELFODIL Camila<br>BENBEKHTI Anna<br>BILLIARD Leo<br>BOUAB Maia<br>BOUDAILLIEZ Theophile<br>BOUDEFFA Imene<br>COLIN Nina<br>DAHEL Anys<br>DANG MERLE Lisa<br>DAUDRE Lou-Eve<br>DELEMAZURE Henri<br>DERUYCK Sacha<br>DESCAMPS-DIAZ Giulian<br>DUCHATELET Gaspard<br>FONTANA Sofia<br>HETZEL Eva<br>HIGNARD Antoine<br>JOANCHICOY DIT ARNAUDE Sacha<br>KARRAT Azzedine<br>KUCUK Jiyan<br>LEBURGUE-GORNECKI Thomas<br>MERLIN Amaury<br>MINAKU KUNDJI Noah<br>RIGOLLE Apolline<br>TERKMANI Alexandre<br>THREHOUT Sophia<br>TRISTRAM Maud<br>TROUBLE Jules<br>VINCENT Emie<br>VINCENT-GERARD Sacha<br>ZHANG Leon</p></div>
 <div class="classe"><h2>TB</h2><p>ANDRIEU Alice<br>BAVIERE Claire-Marie<br>BOUABOUZ Ishaq<br>BOUTMIR Souleymane<br>CASU Amelie<br>CHABANE Timeo<br>CLAUS Nerilka<br>CRUZ Samuel<br>GENDRON Mila<br>GEREMIA Abel<br>GONZALEZ DE LINARES Adrien<br>GRARDEL Maxime<br>HALAMEK Thomas<br>HAMMANI Emma<br>KINGET Elsa<br>LAGACHE Timothe<br>LAOUDEDJ Feriel<br>LECOMTE Arthur<br>LEGAUT Maxime<br>LEGRAND Leo<br>LEROUGE Celestine<br>LIPOVAC Louis<br>LOCUFIER Astrid<br>MAUREL Victoria<br>MICHEL Oscar<br>MOKRANI Lilia<br>MOREAU Nouchka<br>NARDUCCI Rose<br>PANNEKOECKE-PETITPREZ Louann<br>PIPIER Aymeric<br>PROVOT Eleonore</p></div>
 <div class="classe"><h2>TC</h2><p>AFASSI Rania<br>BARATTE Victorine<br>BENDIFFELLAH Adam<br>BERENGER Lucie<br>BOUSSERRA Tassnime<br>BOUZITOUNA Sidrat<br>BRANCHE Martin<br>CARLIER Anais<br>DALMEIDA Grace<br>DELAHAYE Thibault<br>DHINAUX Solene<br>DOUBLET Jeanne<br>DUARTE Jeanne<br>EL MASROUR Walid<br>HAWIL Fatoumata<br>ITALIANO Nina<br>JUMEAU Charlotte<br>KATTAN Camille<br>KIEFFER Jeanne<br>LEBLANC James<br>NAILI Noam<br>NARDUCCI Louise<br>RONCERAY Nola<br>SERRON Lise<br>SOUVANTHONG Saya<br>TALBI Ryan<br>VAN LUNTEREN Aymeric</p></div>
 <div class="classe"><h2>TD</h2><p>BEAUGRAND Auguste<br>BERNARD Guilhem<br>BOUAMRIA Anais<br>BOUMAAD Faiza<br>BOURGOIS Cecile<br>BOUTEAU-HARDY Gabriel<br>BRUTSAERT Sibylle<br>BRZEZINSKI Eugenie<br>CAMERLYNCK Emma<br>DAUBAIRE-TEMMEM Aymeric<br>DESCROIZETTE Romain<br>DOSSA Ethan<br>EL FATOUHI Ma\\x9dssa<br>ELOY Auriane<br>ESMIOL-LEVANT Victor<br>FERNANDES Neva<br>GONCALVES PEREIRA Carla<br>HECQUET Annaelle<br>HEUDE Louise<br>JONACZYK Elsa<br>JUPON Laouenan<br>LAKHDARI Ines<br>LAMOUR Candice<br>LANGUER Mahe<br>LARBI Yasmine<br>LESOT Aubin<br>MAJORCZYK Anais<br>PIAT Marine<br>PRUVOST Lucas<br>SAHMI LAMRANI Malak<br>STAES Mahaut<br>TURNER-DJEDIDI Aude</p></div>
@@ -67,8 +55,28 @@
 <div class="classe"><h2>6EME4</h2><p>BENVENISTE Carla<br>BITTER RAIMBAULT Vadim<br>BOLLENGIER Amedee<br>BOUNAB Naelle<br>BOUSSAHA Feriel<br>CAPIEZ Gaspard<br>DESMETTRE LIN Lila<br>DUFAUX Balthazar<br>EKEMI Eyan<br>EMIRIAN Achille<br>FOUDRIAT Constantin<br>GROUARD Ezechiel<br>KERCKHOVE Arthur<br>KONRAD Mariela<br>MELARD Arthur<br>REMIGNON Eve<br>ROME SOUCHOT Valentine<br>SALENGROIS Clemence<br>SEGUY Edouard<br>STIEVENARD Philippine<br>VERSTRAETE Roxane<br>VIALLE Johanna</p></div>
 <div class="classe"><h2>6EME5</h2><p>ALLALI Adel<br>ARAUD Lilian<br>BENHADI Yassine<br>BODDAERT Arthus<br>CARBONNIER Ines<br>CHEVREL-MORNET Violette<br>COLLETTE Cassandre<br>DEVYNCK Chloe<br>ISAERT GELLEZ Ernest<br>JAWAD Ambrine<br>LAGGOUN Safa<br>MAKWALA MA-MAKWALA Kymiah<br>MARECHAL Liza<br>MENARD Calixte<br>PRUVOST Victor<br>RAYNAUD Ava<br>REZAIGUIA Ali<br>SALIGO TOURNAUX Diane<br>SENECHAL Jules<br>WALLEZ Margaux</p></div>
 <div class="classe"><h2>6EME6</h2><p>BALLAY Eleonore<br>BEN-NAOUM Feriel<br>BOUTHILLIER BIGOTTE Maya<br>CHBOURK IDRISSI Jad<br>COLLOMB Gabrielle<br>DAIKH Dayan<br>DASSI Joumana<br>DESMAELE Madeleine<br>FODIL CHERIF Naryse<br>GOMES SOARES Louise<br>HENNOCQ Suzanne<br>KUKULA Anouk<br>LABARRIERE Emile<br>LAHMERI Noah<br>LEROY Augustine<br>MUSTAPHA Wassim<br>PAGNIEZ Gabriel<br>PETIT Marcel<br>PHILIPPO Timothy<br>SAME Jaynah<br>SAVARY Marcel<br>TADJOURI Majda</p></div>
-<div class="classe"><h2>6EME7</h2><p>BOUROGA Nazim<br>CASIER Philippe<br>COLLARD Arsene<br>DABACH Nabil<br>DESCHODT Gaspard<br>ELAZZATI Hajar<br>FERTAKH Dounia<br>FROTIER DE LA MESSELIERE Gabrielle<br>GHILLAIN GALLOIS Enzo<br>GROSSE DIALLO Gabriel<br>HUYLEBROECK Timeo<br>MANSOUR Maram<br>METANGMO-NANFACK Jade<br>MOREL Charles<br>PROTAIS SUMFLETH Pia<br>TAOUIL Eden<br>TIAN MARC Victor<br>VIE Robin<br>YENOIEV Timour<br>ZERIGUI Youcef</p></div>
-</div><br>
-<script src="app.js"></script>
-</body>
-</html>
+<div class="classe"><h2>6EME7</h2><p>BOUROGA Nazim<br>CASIER Philippe<br>COLLARD Arsene<br>DABACH Nabil<br>DESCHODT Gaspard<br>ELAZZATI Hajar<br>FERTAKH Dounia<br>FROTIER DE LA MESSELIERE Gabrielle<br>GHILLAIN GALLOIS Enzo<br>GROSSE DIALLO Gabriel<br>HUYLEBROECK Timeo<br>MANSOUR Maram<br>METANGMO-NANFACK Jade<br>MOREL Charles<br>PROTAIS SUMFLETH Pia<br>TAOUIL Eden<br>TIAN MARC Victor<br>VIE Robin<br>YENOIEV Timour<br>ZERIGUI Youcef</p></div>"""
+
+
+from json import dumps
+
+niveaux = txt.split("""</div><br>
+<div class="niveau">""")
+
+data_classes = []
+
+for n in range(len(niveaux)):
+    niveaux[n] = niveaux[n].split('<div class="classe">')
+    niveau = niveaux[n]
+    l = []
+    for c in range(len(niveau)):
+        classe = niveau[c]
+        if len(classe) == 1:
+            continue
+        name = classe.split("<h2>")[1].split("</h2>")[0]
+        eleves = classe.split("<p>")[1].split("</p>")[0].split("<br>")
+        l.append({name: eleves})
+    data_classes.append(l)
+
+with open("data.json","w") as f:
+    f.write(dumps(data_classes,indent=4))
