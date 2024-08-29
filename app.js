@@ -79,7 +79,7 @@ function populateDatalist(options) {
 }
 
 function hide_all_links () {
-    for (const link of document.querySelector("a")) {
+    for (const link of document.querySelectorAll("a")) {
         link.style.display = "none"
     }
 }
@@ -87,7 +87,6 @@ function hide_all_links () {
 fetch('https://raw.githubusercontent.com/tonioliii/classes/main/data.json')
   .then(res => res.json())
   .then(json => {
-    console.log(json)
     let info = generate_list(json)
     const list_id_to_info = info[0]
     const list_name = info[1]
@@ -96,6 +95,10 @@ fetch('https://raw.githubusercontent.com/tonioliii/classes/main/data.json')
     populateDatalist(list_name);
 
     const input = document.getElementById('dynamic-input');
+    input.addEventListener("click", function () {
+        hide_all_links()
+    })
+
     input.addEventListener('blur', function() {
         if (!list_name.includes(this.value)) {
             this.value = '';
@@ -112,4 +115,21 @@ fetch('https://raw.githubusercontent.com/tonioliii/classes/main/data.json')
             link.style.display = "block"
         }
     });
+
+    const url = new URL(window.location.href);
+    const params = new URLSearchParams(url.search);
+    const id = params.get('id');
+
+    console.log(id)
+
+    if (id != null) {
+        let info = list_id_to_info[id]
+
+        document.getElementById("eleve-name").innerText = info[0]
+        document.getElementById("eleve-classe").innerText = info[1]
+        document.getElementById("eleve").style.display = "block"
+        document.getElementById("back").href = url.href.split("?")[0]
+    }
+
+
 })

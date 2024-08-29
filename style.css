@@ -10,3 +10,17 @@ h2{color: #003; font-size: 220%; text-align: center;}
     h2{color: rgb(39, 66, 221);}
     .classe{border-color: rgb(39, 66, 221); background-color: #001; color: aquamarine;}
 }
+
+#links {
+    display: inline-block;
+}
+
+#eleve {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    display: none;
+}
