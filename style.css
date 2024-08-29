@@ -19,16 +19,6 @@ h2{color: #003; font-size: 220%; text-align: center;}
     display: inline-block;
 }
 
-#eleve {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #ffffff;
-    display: none;
-}
-
 html, body {
     min-height: 100%;
 }
@@ -38,7 +28,7 @@ body * {
     font-weight: 450;
 }
 
-body {
+#eleve-div, #search-div {
     width: 100vw;
     min-height: 100vh;
     margin: 0;
