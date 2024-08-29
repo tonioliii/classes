@@ -127,7 +127,7 @@ fetch('https://raw.githubusercontent.com/tonioliii/classes/main/data.json')
 
         document.getElementById("eleve-name").innerText = info[0]
         document.getElementById("eleve-classe").innerText = info[1]
-        document.getElementById("eleve-div").style.display = "block"
+        document.getElementById("eleve-div").style.display = "flex"
         document.getElementById("search-div").style.display = "none"
         document.getElementById("back").href = url.href.split("?")[0]
     }

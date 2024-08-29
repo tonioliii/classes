@@ -28,19 +28,28 @@ body * {
     font-weight: 450;
 }
 
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
 #eleve-div, #search-div {
+
     width: 100vw;
     min-height: 100vh;
     margin: 0;
     font-family: "Montserrat", sans-serif;
     /* color: white; */
     gap: 15px;
-
     flex-direction: column;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     /* background-color: black; */
+}
+
+#search-div {
+    display: flex;
 }
 
 input[type="text"], button, a {
