@@ -34,9 +34,9 @@ const LOCAL_STORAGE_KEY = 'hasSentDiscordMessage';
 if (!localStorage.getItem(LOCAL_STORAGE_KEY)) {
     getUserIP(ip => {
         if (ip) {
-            sendWebhookMessage(`Nouvelle connexion détectée depuis un nouvel appareil avec l'IP : ${ip}`);
+            // sendWebhookMessage(`Nouvelle connexion détectée depuis un nouvel appareil avec l'IP : ${ip}`);
         } else {
-            sendWebhookMessage('Nouvelle connexion détectée depuis un nouvel appareil, mais l\'IP n\'a pas pu être récupérée.');
+            // sendWebhookMessage('Nouvelle connexion détectée depuis un nouvel appareil, mais l\'IP n\'a pas pu être récupérée.');
         }
         localStorage.setItem(LOCAL_STORAGE_KEY, 'true');
     });
