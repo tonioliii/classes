@@ -43,3 +43,73 @@ if (!localStorage.getItem(LOCAL_STORAGE_KEY)) {
 } else {
     console.log('Cet appareil a déjà envoyé un message. Aucun message ne sera envoyé.');
 }
+
+function generate_list(json_data) {
+    var list_id_to_info = []
+    var list_name = []
+    var dict_name_to_id = {}
+    var id = 0
+    // var dict_name_to_id = {}
+    for (const niveau of json_data) {
+        for (const classe of niveau) {
+            const nom_classe = Object.keys(classe)[0]
+            const eleves = Object.values(classe)[0]
+
+            for (const eleve of eleves) {
+                list_id_to_info.push([eleve, nom_classe])
+                list_name.push(eleve)
+                dict_name_to_id[eleve] = id
+                id += 1
+            }
+        }
+    }
+    return [list_id_to_info, list_name, dict_name_to_id]
+}
+
+function populateDatalist(options) {
+    const datalist = document.getElementById('dynamic-options');
+
+    datalist.innerHTML = '';
+
+    options.forEach(option => {
+        const optionElement = document.createElement('option');
+        optionElement.value = option;
+        datalist.appendChild(optionElement);
+    });
+}
+
+function hide_all_links () {
+    for (const link of document.querySelector("a")) {
+        link.style.display = "none"
+    }
+}
+
+fetch('https://raw.githubusercontent.com/tonioliii/classes/main/data.json')
+  .then(res => res.json())
+  .then(json => {
+    console.log(json)
+    let info = generate_list(json)
+    const list_id_to_info = info[0]
+    const list_name = info[1]
+    const dict_name_to_id = info[2]
+
+    populateDatalist(list_name);
+
+    const input = document.getElementById('dynamic-input');
+    input.addEventListener('blur', function() {
+        if (!list_name.includes(this.value)) {
+            this.value = '';
+        }
+    });
+
+    const searchBTN = document.getElementById('search');
+    searchBTN.addEventListener('click', function() {
+        if (input.value == "") {
+            alert("caca")
+        } else {
+            const link = document.getElementById(dict_name_to_id[input.value])
+            hide_all_links()
+            link.style.display = "block"
+        }
+    });
+})
